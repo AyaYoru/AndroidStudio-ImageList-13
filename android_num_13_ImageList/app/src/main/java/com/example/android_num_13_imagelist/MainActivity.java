@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText number = (EditText)findViewById(R.id.e1);
+                EditText number = (EditText)findViewById(R.id.edit1);
                 ImageView img = (ImageView)findViewById(R.id.thisImg);
                 int num = Integer.parseInt(number.getText().toString());
 
